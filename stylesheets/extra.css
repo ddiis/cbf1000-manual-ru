@@ -1,0 +1,5 @@
+/* Схемы из мануала: не растягивать больше оригинала, белый фон в тёмной теме */
+.md-typeset img { max-width: 100%; height: auto; background: #fff; border-radius: 2px; }
+.md-typeset p > img:only-child { display: block; max-width: min(100%, 640px); }
+.orig { font-size: .8rem; opacity: .75; }
+.md-typeset table:not([class]) td, .md-typeset table:not([class]) th { padding: .5em .8em; }
